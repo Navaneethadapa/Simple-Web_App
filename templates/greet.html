@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Greeting Page</title>
+  </head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@700&family=Poppins:wght@400;500;600&display=swap');
+    *{
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+    body{
+      margin: 0;
+      padding: 0;
+      background: linear-gradient(120deg, #8e44ad, #2980b9);
+      height: 100vh;
+      overflow: hidden;
+    }
+    .center{
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 500px;
+      background: white;
+      border-radius: 10px;
+      box-shadow: 10px 10px 15px rgba(3, 3, 3, 0.05);
+      height: 250px;
+    }
+  </style>
+  <body>
+    <div class="center">
+      <br>
+      <h1 style="color: #2980b9; text-align: center;">Welcome,</h1><br>
+      <h1 style="color: #2980b9; text-align: center;"> {{ name }}!</h1><br>
+      <h2 style="color: #8e44ad; text-align: center;">Your data is sucessfully stored !</h2>
+    </div> 
+  </body>
+</html>
